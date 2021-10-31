@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HallGUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="MSW-Debug">
+				<Option output="runningEnvironment/HallGUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="runningEnvironment" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-pipe" />
+					<Add option="-mthreads" />
+					<Add option="-D__GNUWIN32__" />
+					<Add option="-D__WXMSW__" />
+					<Add option="-DMSWHALLGUI" />
+					<Add directory="%WXWIN%/include" />
+					<Add directory="%BOOST%" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="%WXWIN%/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-mthreads" />
+					<Add library="libwxmsw31ud_core.a" />
+					<Add library="%BOOST%/bin.v2/libs/filesystem/build/gcc-8.1.0/debug/link-static/threading-multi/visibility-hidden/libboost_filesystem-mgw8-mt-d-x64-1_74.a" />
+					<Add library="libwxbase31ud.a" />
+					<Add library="libwxpngd.a" />
+					<Add library="libwxzlibd.a" />
+					<Add library="libwxscintillad.a" />
+					<Add library="libwxmsw31ud_stc.a" />
+					<Add directory="%WXWIN%/lib/gcc_dll" />
+					<Add directory="%BOOST%/bin.v2/libs" />
+				</Linker>
+			</Target>
+			<Target title="MSW-Release">
+				<Option output="runningEnvironment/HallGUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="runningEnvironment" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pipe" />
+					<Add option="-mthreads" />
+					<Add option="-D__GNUWIN32__" />
+					<Add option="-D__WXMSW__" />
+					<Add option="-DMSWHALLGUI" />
+					<Add directory="%WXWIN%/include" />
+					<Add directory="%BOOST%" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="%WXWIN%/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-mthreads" />
+					<Add library="libwxmsw31u_core.a" />
+					<Add library="%BOOST%/bin.v2/libs/filesystem/build/gcc-8.1.0/debug/link-static/threading-multi/visibility-hidden/libboost_filesystem-mgw8-mt-d-x64-1_74.a" />
+					<Add library="libwxbase31u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="libwxscintilla.a" />
+					<Add library="libwxmsw31u_stc.a" />
+					<Add directory="%WXWIN%/lib/gcc_dll" />
+					<Add directory="%BOOST%/bin.v2/libs" />
+				</Linker>
+			</Target>
+			<Target title="Linux-Debug">
+				<Option output="runningEnvironment/HallGUI.bin" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="runningEnvironment" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-pipe" />
+					<Add option="-pthread" />
+					<Add option="`wx-config --cflags`" />
+					<Add option="-DLINUXHALLGUI" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+					<Add option="`wx-config --libs std,stc`" />
+					<Add option="-lX11" />
+					<Add library="libboost_filesystem" />
+					<Add library="libboost_system" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Linux-Release">
+				<Option output="runningEnvironment/HallGUI.bin" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="runningEnvironment" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pipe" />
+					<Add option="-pthread" />
+					<Add option="`wx-config --cflags`" />
+					<Add option="-DLINUXHALLGUI" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-pthread" />
+					<Add option="`wx-config --libs std,stc`" />
+					<Add option="-lX11" />
+					<Add library="libboost_filesystem" />
+					<Add library="libboost_system" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++1z" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+		</Compiler>
+		<Unit filename="HallGUIApp.cpp" />
+		<Unit filename="HallGUIApp.h" />
+		<Unit filename="HallGUIMain.cpp" />
+		<Unit filename="HallGUIMain.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/FileTreeNode.cpp" />
+		<Unit filename="src/FileTreeNode.h" />
+		<Unit filename="src/Globals.cpp" />
+		<Unit filename="src/Globals.h" />
+		<Unit filename="src/ProjectFileHandling.cpp" />
+		<Unit filename="src/ProjectFileHandling.h" />
+		<Unit filename="src/TaskAssembly.cpp" />
+		<Unit filename="src/TaskAssembly.h" />
+		<Unit filename="src/customUI/GraphEditor.cpp" />
+		<Unit filename="src/customUI/GraphEditor.h" />
+		<Unit filename="src/customUI/LogField.cpp" />
+		<Unit filename="src/customUI/LogField.h" />
+		<Unit filename="src/customUI/NewNodeSearch.cpp" />
+		<Unit filename="src/customUI/NewNodeSearch.h" />
+		<Unit filename="src/customUI/NewNodeSelection.cpp" />
+		<Unit filename="src/customUI/NewNodeSelection.h" />
+		<Unit filename="src/customUI/NodeDescriptionDisplay.cpp" />
+		<Unit filename="src/customUI/NodeDescriptionDisplay.h" />
+		<Unit filename="src/customUI/NodeOptions.cpp" />
+		<Unit filename="src/customUI/NodeOptions.h" />
+		<Unit filename="src/customUI/ProjectProperties.cpp" />
+		<Unit filename="src/customUI/ProjectProperties.h" />
+		<Unit filename="src/customUI/RewrappableText.cpp" />
+		<Unit filename="src/customUI/RewrappableText.h" />
+		<Unit filename="src/customUI/SmallPreview.cpp" />
+		<Unit filename="src/customUI/SmallPreview.h" />
+		<Unit filename="src/customUI/StringEditorField.cpp" />
+		<Unit filename="src/customUI/StringEditorField.h" />
+		<Unit filename="src/customUI/customDialogs/InputEditorDialog.cpp" />
+		<Unit filename="src/customUI/customDialogs/InputEditorDialog.h" />
+		<Unit filename="src/customUI/customDialogs/OptionEditorDialog.cpp" />
+		<Unit filename="src/customUI/customDialogs/OptionEditorDialog.h" />
+		<Unit filename="src/customUI/customDialogs/OptionTypeChoiceDialog.cpp" />
+		<Unit filename="src/customUI/customDialogs/OptionTypeChoiceDialog.h" />
+		<Unit filename="src/customUI/customDialogs/OutputEditorDialog.cpp" />
+		<Unit filename="src/customUI/customDialogs/OutputEditorDialog.h" />
+		<Unit filename="src/customUI/customDialogs/StyledTextDialog.cpp" />
+		<Unit filename="src/customUI/customDialogs/StyledTextDialog.h" />
+		<Unit filename="src/customUI/customDialogs/TextFieldDialog.cpp" />
+		<Unit filename="src/customUI/customDialogs/TextFieldDialog.h" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeBaseDataPage.cpp" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeBaseDataPage.h" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeInputPage.cpp" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeInputPage.h" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeOptionPage.cpp" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeOptionPage.h" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeOutputPage.cpp" />
+		<Unit filename="src/customUI/nodePropertyPages/NodeOutputPage.h" />
+		<Unit filename="src/customUI/nodePropertyPages/NodePropertyPage.cpp" />
+		<Unit filename="src/customUI/nodePropertyPages/NodePropertyPage.h" />
+		<Unit filename="src/customUI/optionCoreEditors/BlankEditorPanel.cpp" />
+		<Unit filename="src/customUI/optionCoreEditors/BlankEditorPanel.h" />
+		<Unit filename="src/customUI/optionCoreEditors/OptionEditorPanel.cpp" />
+		<Unit filename="src/customUI/optionCoreEditors/OptionEditorPanel.h" />
+		<Unit filename="src/customUI/optionCoreEditors/SelectionEditorPanel.cpp" />
+		<Unit filename="src/customUI/optionCoreEditors/SelectionEditorPanel.h" />
+		<Unit filename="src/customUI/optionInputs/CheckBoxOptionInput.cpp" />
+		<Unit filename="src/customUI/optionInputs/CheckBoxOptionInput.h" />
+		<Unit filename="src/customUI/optionInputs/OptionInputElement.cpp" />
+		<Unit filename="src/customUI/optionInputs/OptionInputElement.h" />
+		<Unit filename="src/customUI/optionInputs/SelectionOptionInput.cpp" />
+		<Unit filename="src/customUI/optionInputs/SelectionOptionInput.h" />
+		<Unit filename="src/customUI/optionInputs/TextAreaOptionInput.cpp" />
+		<Unit filename="src/customUI/optionInputs/TextAreaOptionInput.h" />
+		<Unit filename="src/customUI/optionInputs/TextFieldOptionInput.cpp" />
+		<Unit filename="src/customUI/optionInputs/TextFieldOptionInput.h" />
+		<Unit filename="src/nodes/Node.cpp" />
+		<Unit filename="src/nodes/Node.h" />
+		<Unit filename="src/nodes/NodeComponents.cpp" />
+		<Unit filename="src/nodes/NodeComponents.h" />
+		<Unit filename="src/nodes/NodeConnection.cpp" />
+		<Unit filename="src/nodes/NodeConnection.h" />
+		<Unit filename="src/nodes/NodeDescriptor.cpp" />
+		<Unit filename="src/nodes/NodeDescriptor.h" />
+		<Unit filename="src/nodes/NodeFileHandling.cpp" />
+		<Unit filename="src/nodes/NodeFileHandling.h" />
+		<Unit filename="src/nodes/NodePort.cpp" />
+		<Unit filename="src/nodes/NodePort.h" />
+		<Unit filename="src/nodes/nodeFileVersionUpgraders/nodeFilePreVersionUpgrading.cpp" />
+		<Unit filename="src/nodes/nodeFileVersionUpgraders/nodeFileVersionUpgrading.cpp" />
+		<Unit filename="src/nodes/nodeFileVersionUpgraders/nodeFileVersionUpgrading.h" />
+		<Unit filename="src/nodes/optionCores/CheckBoxCore.cpp" />
+		<Unit filename="src/nodes/optionCores/CheckBoxCore.h" />
+		<Unit filename="src/nodes/optionCores/OptionCore.cpp" />
+		<Unit filename="src/nodes/optionCores/OptionCore.h" />
+		<Unit filename="src/nodes/optionCores/SelectionCore.cpp" />
+		<Unit filename="src/nodes/optionCores/SelectionCore.h" />
+		<Unit filename="src/nodes/optionCores/TextAreaCore.cpp" />
+		<Unit filename="src/nodes/optionCores/TextAreaCore.h" />
+		<Unit filename="src/nodes/optionCores/TextFieldCore.cpp" />
+		<Unit filename="src/nodes/optionCores/TextFieldCore.h" />
+		<Unit filename="src/projectFileVersionUpgraders/projectFilePreVersionUpgrading.cpp" />
+		<Unit filename="src/projectFileVersionUpgraders/projectFileVersionUpgrading.cpp" />
+		<Unit filename="src/projectFileVersionUpgraders/projectFileVersionUpgrading.h" />
+		<Unit filename="wxsmith/HallGUIframe.wxs" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="HallGUIApp.cpp" main="HallGUIFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/HallGUIframe.wxs" src="HallGUIMain.cpp" hdr="HallGUIMain.h" fwddecl="0" i18n="1" name="HallGUIFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

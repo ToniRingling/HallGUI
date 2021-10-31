@@ -1,0 +1,78 @@
+#ifndef NODEINPUTPAGE_H_INCLUDED
+#define NODEINPUTPAGE_H_INCLUDED
+
+#include <wx/wx.h>
+#include <vector>
+#include <utility>
+
+#include "NodePropertyPage.h"
+
+////FORWARD DECLARATIONS
+class RewrappableText;
+////
+
+namespace node_property_pages{
+    /** \brief A GUI element used for editing the inputs of nodes.
+     */
+    class NodeInputPage : public NodePropertyPage{
+    private:
+        std::vector<RewrappableText*> lastColumnWrappables;/**< In user mode these are the text elements in the last column, which are wrapped on resize. */
+    public :
+        /** \brief
+         *
+         * \param Parent wxWindow* The window which contains this element.
+         * \param Id wxWindowID The wxWidgets ID for this element.
+         * \param Position const wxPoint& The default position of this element.
+         * \param Size const wxSize& The default size of this element.
+         * \param Style long The style of this element, used as in wxScrolledWindow.
+         *
+         */
+        NodeInputPage(wxWindow* Parent = NULL, wxWindowID Id = -1, const wxPoint& Position = wxDefaultPosition, const wxSize& Size = wxDefaultSize, long Style = 0);
+        /** \brief Destroys this GUI element without further effects.
+         *
+         * \return virtual
+         *
+         */
+        virtual ~NodeInputPage();
+        /** \brief Sets a node to be edited. Loads the relevant options.
+         *
+         * \param node Node* The node to be edited. NULL will clear this UI.
+         * \return void
+         *
+         */
+        void setOptions(Node* node);
+    private:
+        /** \brief Adds a new Input to the node which is being edited. Caused by button press.
+         *
+         * \param event wxCommandEvent& The button press which should cause a new Input to be created.
+         * \return void
+         *
+         */
+        void newInput(wxCommandEvent& event);
+        /** \brief Deletes an Input from the node which is being edited. Caused by button press.
+         *
+         * \param event wxCommandEvent& The button press which should cause the deletion of an Input. Carries the number of the Input (w.r. to the vector in the node).
+         * \return void
+         *
+         */
+        void deleteInput(wxCommandEvent& event);
+        /** \brief Opens a dialog to edit the given Input. Caused by button press.
+         *
+         * \param event wxCommandEvent& The button press which should cause a dialog for editing the Input.
+         * \return void
+         *
+         */
+        void editInput(wxCommandEvent& event);
+        /** \brief Handles resizing of this element. In Particular, this wraps the texts in the last column in user mode.
+         *
+         * \param e wxSizeEvent& The corresponding resize event.
+         * \return void
+         *
+         */
+        void onResize(wxSizeEvent& e);
+
+        wxDECLARE_EVENT_TABLE();
+    };
+}
+
+#endif // NODEINPUTPAGE_H_INCLUDED

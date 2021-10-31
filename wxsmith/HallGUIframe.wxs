@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="HallGUIFrame">
+		<title>HallGUI</title>
+		<id_arg>0</id_arg>
+		<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+			<cols>3</cols>
+			<growablecols>0,1,2</growablecols>
+			<growablerows>0</growablerows>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer2" member="no">
+					<cols>1</cols>
+					<rows>7</rows>
+					<growablecols>0</growablecols>
+					<growablerows>1,4,6</growablerows>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+							<label>Node prefabs</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUINewNodeSelection" subclass="NewNodeSelection" variable="newNodeSel" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/NewNodeSelection.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>160,139</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUINewNodeSearch" subclass="NewNodeSearch" variable="newNodeSearch" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/NewNodeSearch.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+							<label>Node description</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUINodeDescriptionDisplay" subclass="NodeDescriptionDisplay" variable="nodeDescDisplay" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/NodeDescriptionDisplay.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>160,109</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+							<label>Global options</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUIProjectProperties" subclass="ProjectProperties" variable="projProp" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/ProjectProperties.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>160,99</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer3" member="no">
+					<cols>1</cols>
+					<rows>2</rows>
+					<growablecols>0</growablecols>
+					<growablerows>0,1</growablerows>
+					<object class="sizeritem">
+						<object class="Custom" name="GUIGraphEditor" subclass="GraphEditor" variable="graphEd" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/GraphEditor.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>422,317</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUILogField" subclass="LogField" variable="logField" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/LogField.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>422,49</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer4" member="no">
+					<cols>1</cols>
+					<rows>4</rows>
+					<growablecols>0</growablecols>
+					<growablerows>1,3</growablerows>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+							<label>Node display order</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUISmallPreview" subclass="SmallPreview" variable="preview" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/SmallPreview.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>185,158</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+							<label>Node options</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="Custom" name="GUINodeOptions" subclass="NodeOptions" variable="opt" member="yes">
+							<creating_code>$(THIS) = new $(CLASS)($(PARENT),$(ID),$(POS),$(SIZE));</creating_code>
+							<include_file>src/customUI/NodeOptions.h</include_file>
+							<local_include>1</local_include>
+							<style></style>
+							<size>185,245</size>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="idMenuNew" variable="MenuItem6" member="yes">
+					<label>New Project</label>
+				</object>
+				<object class="wxMenuItem" name="idMenuSave" variable="MenuItem4" member="yes">
+					<label>Save Project</label>
+				</object>
+				<object class="wxMenuItem" name="idMenuLoad" variable="MenuItem5" member="yes">
+					<label>Load Project</label>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu3" member="yes">
+				<label>Project</label>
+				<object class="wxMenuItem" name="idMenuBuild" variable="MenuItem3" member="yes">
+					<label>Build</label>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu4" member="yes">
+				<label>Mode</label>
+				<object class="wxMenuItem" name="idMenuUser" variable="MenuItem7" member="yes">
+					<label>User</label>
+					<radio>1</radio>
+				</object>
+				<object class="wxMenuItem" name="idMenuDeveloper" variable="MenuItem8" member="yes">
+					<label>Developer</label>
+					<radio>1</radio>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>
