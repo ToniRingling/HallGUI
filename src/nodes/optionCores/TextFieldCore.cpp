@@ -1,6 +1,6 @@
 #include "TextFieldCore.h"
 
-#include "../NodeFileHandling.h"
+#include "../../fileIO/CommonFileHandling.h"
 #include "../../customUI/optionCoreEditors/BlankEditorPanel.h"
 #include "../../customUI/optionInputs/TextFieldOptionInput.h"
 
@@ -31,12 +31,12 @@ void TextFieldCore::setValue(std::string to){
 }
 
 void TextFieldCore::write(std::ostream* where){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     writeString(where, &value);
 }
 
 void TextFieldCore::read(std::istream* from){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     std::string* temp = readString(from);
     value = *temp;
     delete temp;

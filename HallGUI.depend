@@ -1885,13 +1885,13 @@
 1618266238 c:\wxwidgets\include\wx\univ\theme.h
 	"wx/string.h"
 
-1632942717 source:d:\c++projects\hallgui\hallguimain.cpp
+1633192152 source:d:\c++projects\hallgui\hallguimain.cpp
 	"HallGUIMain.h"
 	<wx/msgdlg.h>
 	<wx/intl.h>
 	<wx/string.h>
 
-1623074622 d:\c++projects\hallgui\hallguimain.h
+1633369193 d:\c++projects\hallgui\hallguimain.h
 	"src/customUI/GraphEditor.h"
 	"src/customUI/LogField.h"
 	"src/customUI/NewNodeSearch.h"
@@ -1905,8 +1905,8 @@
 	<wx/sizer.h>
 	<wx/stattext.h>
 	<wx/statusbr.h>
-	"src/TaskAssembly.h"
-	"src/ProjectFileHandling.h"
+	"src/fileIO/TaskAssembly.h"
+	"src/fileIO/ProjectFileHandling.h"
 	"src/Globals.h"
 
 1615997556 source:d:\c++projects\hallgui\hallguiapp.cpp
@@ -3122,7 +3122,7 @@
 	"NodePrefabFileHandling.h"
 	"Node.h"
 
-1632685407 d:\c++projects\hallgui\src\nodes\node.h
+1633894349 d:\c++projects\hallgui\src\nodes\node.h
 	<vector>
 	<unordered_set>
 	"NodePort.h"
@@ -3159,7 +3159,7 @@
 	<map>
 	<unordered_map>
 
-1632254965 source:d:\c++projects\hallgui\src\nodes\node.cpp
+1633894208 source:d:\c++projects\hallgui\src\nodes\node.cpp
 	"Node.h"
 	<iostream>
 	<sstream>
@@ -3199,21 +3199,22 @@
 	"NodeConnection.h"
 	"../Globals.h"
 
-1632684967 d:\c++projects\hallgui\src\nodes\nodecomponents.h
+1633894432 d:\c++projects\hallgui\src\nodes\nodecomponents.h
 	<string>
 	<wx/wx.h>
 	<iostream>
-	"NodeFileHandling.h"
+	"../fileIO/NodeFileHandling.h"
 	"../customUI/customDialogs/OptionEditorDialog.h"
 	"NodePort.h"
 
-1632685009 source:d:\c++projects\hallgui\src\nodes\nodecomponents.cpp
+1633369887 source:d:\c++projects\hallgui\src\nodes\nodecomponents.cpp
 	"NodeComponents.h"
 	"optionCores/TextFieldCore.h"
 	"optionCores/CheckBoxCore.h"
 	"optionCores/SelectionCore.h"
 	"optionCores/TextAreaCore.h"
 	"../customUI/optionInputs/OptionInputElement.h"
+	"../fileIO/CommonFileHandling.h"
 
 1633190790 d:\c++projects\hallgui\src\nodes\nodefilehandling.h
 	<fstream>
@@ -3242,7 +3243,7 @@
 1632665533 d:\c++projects\hallgui\src\globals.h
 	<wx/wx.h>
 
-1632665590 source:d:\c++projects\hallgui\src\globals.cpp
+1633894000 source:d:\c++projects\hallgui\src\globals.cpp
 	"Globals.h"
 	<wx/wx.h>
 	<math.h>
@@ -3264,7 +3265,7 @@
 1616087236 d:\c++projects\hallgui\src\customui\options\textfieldoption.h
 	"OptionElement.h"
 
-1632942920 d:\c++projects\hallgui\src\customui\projectproperties.h
+1633370191 d:\c++projects\hallgui\src\customui\projectproperties.h
 	<wx/wx.h>
 	<string>
 	<utility>
@@ -3293,7 +3294,7 @@
 	<vector>
 	<unordered_map>
 
-1626683024 source:d:\c++projects\hallgui\src\customui\projectproperties.cpp
+1633894529 source:d:\c++projects\hallgui\src\customui\projectproperties.cpp
 	"ProjectProperties.h"
 	"customDialogs/StyledTextDialog.h"
 	"customDialogs/TextFieldDialog.h"
@@ -3529,15 +3530,15 @@
 1632685162 d:\c++projects\hallgui\src\nodes\optioncores\checkboxcore.h
 	"OptionCore.h"
 
-1632685211 source:d:\c++projects\hallgui\src\nodes\optioncores\textfieldcore.cpp
+1633370070 source:d:\c++projects\hallgui\src\nodes\optioncores\textfieldcore.cpp
 	"TextFieldCore.h"
-	"../NodeFileHandling.h"
+	"../../fileIO/CommonFileHandling.h"
 	"../../customUI/optionCoreEditors/BlankEditorPanel.h"
 	"../../customUI/optionInputs/TextFieldOptionInput.h"
 
-1632685195 source:d:\c++projects\hallgui\src\nodes\optioncores\checkboxcore.cpp
+1633370014 source:d:\c++projects\hallgui\src\nodes\optioncores\checkboxcore.cpp
 	"CheckBoxCore.h"
-	"../NodeFileHandling.h"
+	"../../fileIO/CommonFileHandling.h"
 	"../../customUI/optionCoreEditors/BlankEditorPanel.h"
 	"../../customUI/optionInputs/CheckBoxOptionInput.h"
 
@@ -3574,18 +3575,18 @@
 	<wx/wx.h>
 	<vector>
 
-1632685195 source:d:\c++projects\hallgui\src\nodes\optioncores\textareacore.cpp
+1633370071 source:d:\c++projects\hallgui\src\nodes\optioncores\textareacore.cpp
 	"TextAreaCore.h"
-	"../NodeFileHandling.h"
+	"../../fileIO/CommonFileHandling.h"
 	"../../customUI/optionCoreEditors/BlankEditorPanel.h"
 	"../../customUI/optionInputs/TextAreaOptionInput.h"
 
 1632685106 d:\c++projects\hallgui\src\nodes\optioncores\textareacore.h
 	"OptionCore.h"
 
-1632685211 source:d:\c++projects\hallgui\src\nodes\optioncores\selectioncore.cpp
+1633370071 source:d:\c++projects\hallgui\src\nodes\optioncores\selectioncore.cpp
 	"SelectionCore.h"
-	"../NodeFileHandling.h"
+	"../../fileIO/CommonFileHandling.h"
 	"../../customUI/optionCoreEditors/SelectionEditorPanel.h"
 	"../../customUI/optionInputs/SelectionOptionInput.h"
 
@@ -9267,4 +9268,110 @@
 
 1632685626 d:\c++projects\hallgui\src\projectfileversionupgraders\projectfileversionupgrading.h
 	<string>
+
+1615738279 d:\c++projects\hallgui\src\fileio\taskassembly.h
+	<string>
+	<vector>
+	<unordered_map>
+
+1633369767 d:\c++projects\hallgui\src\fileio\projectfilehandling.h
+	<fstream>
+
+1633369756 d:\c++projects\hallgui\src\fileio\nodefilehandling.h
+	<fstream>
+	<string>
+	"../nodes/Node.h"
+	"../nodes/NodeDescriptor.h"
+
+1633894947 source:d:\c++projects\hallgui\src\fileio\nodefileversionupgraders\nodefilev-0upgrading.cpp
+	"nodeFileVersionUpgrading.h"
+	<sstream>
+	<boost/algorithm/string.hpp>
+	"../NodeFileHandling.h"
+	<iostream>
+
+1633893669 source:d:\c++projects\hallgui\src\fileio\projectfileversionupgraders\projectfilepreversionupgrading.cpp
+	"projectFileVersionUpgrading.h"
+	<sstream>
+	<boost/algorithm/string.hpp>
+	"../ProjectFileHandling.h"
+
+1633370405 d:\c++projects\hallgui\src\fileio\projectfileversionupgraders\projectfileversionupgrading.h
+	<string>
+
+1633893667 source:d:\c++projects\hallgui\src\fileio\projectfileversionupgraders\projectfilev-0upgrading.cpp
+	"projectFileVersionUpgrading.h"
+	<sstream>
+	<boost/algorithm/string.hpp>
+	"../ProjectFileHandling.h"
+
+1633894330 source:d:\c++projects\hallgui\src\fileio\projectfileversionupgraders\projectfileversionupgrading.cpp
+	"projectFileVersionUpgrading.h"
+	<sstream>
+	"../CommonFileHandling.h"
+
+1633368835 source:d:\c++projects\hallgui\src\fileio\sharedfilehandling.cpp
+
+1633894433 source:d:\c++projects\hallgui\src\fileio\nodefilehandling.cpp
+	"NodeFileHandling.h"
+	<fstream>
+	<sstream>
+	<stdio.h>
+	<boost/algorithm/string.hpp>
+	"../Globals.h"
+	"CommonFileHandling.h"
+	"nodeFileVersionUpgraders/nodeFileVersionUpgrading.h"
+	<iostream>
+
+1633894305 d:\c++projects\hallgui\src\fileio\nodefileversionupgraders\nodefileversionupgrading.h
+	<string>
+
+1633893791 source:d:\c++projects\hallgui\src\fileio\nodefileversionupgraders\nodefilepreversionupgrading.cpp
+	"nodeFileVersionUpgrading.h"
+	<sstream>
+	<boost/algorithm/string.hpp>
+	"../NodeFileHandling.h"
+
+1633894898 source:d:\c++projects\hallgui\src\fileio\nodefileversionupgraders\nodefileversionupgrading.cpp
+	"nodeFileVersionUpgrading.h"
+	<sstream>
+	"../CommonFileHandling.h"
+	<iostream>
+
+1633894529 source:d:\c++projects\hallgui\src\fileio\projectfilehandling.cpp
+	"ProjectFileHandling.h"
+	<sstream>
+	"NodeFileHandling.h"
+	"../customUI/SmallPreview.h"
+	"../customUI/GraphEditor.h"
+	"../customUI/ProjectProperties.h"
+	"CommonFileHandling.h"
+	"projectFileVersionUpgraders/projectFileVersionUpgrading.h"
+	"../Globals.h"
+
+1633370887 source:d:\c++projects\hallgui\src\fileio\taskassembly.cpp
+	"TaskAssembly.h"
+	<fstream>
+	<vector>
+	<string>
+	<utility>
+	<sstream>
+	<unordered_map>
+	<codecvt>
+	<algorithm>
+	"../nodes/NodeComponents.h"
+	"../customUI/SmallPreview.h"
+	"../customUI/ProjectProperties.h"
+	"../customUI/GraphEditor.h"
+	"../customUI/LogField.h"
+	"../nodes/optionCores/OptionCore.h"
+
+1633369803 source:d:\c++projects\hallgui\src\fileio\commonfilehandling.cpp
+	"CommonFileHandling.h"
+	"iostream"
+	<boost/algorithm/string.hpp>
+
+1633369766 d:\c++projects\hallgui\src\fileio\commonfilehandling.h
+	<iostream>
+	<stdint.h>
 

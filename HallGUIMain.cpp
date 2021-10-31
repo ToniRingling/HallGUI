@@ -212,7 +212,7 @@ void HallGUIFrame::OnQuit(wxCommandEvent& event)
 
 void HallGUIFrame::OnAbout(wxCommandEvent& event)
 {
-    wxString msg = "HallGUI - a graphical user interface for hallgrimJS - © Toni Ringling 2020-2021\nVersion 0";
+    wxString msg = "HallGUI - a graphical user interface for hallgrimJS - © Toni Ringling 2020-2021\nVersion 1";
     wxMessageBox(msg, _("Welcome to..."));
 }
 

@@ -5,7 +5,7 @@
 #include <wx/wx.h>
 #include <iostream>
 
-#include "NodeFileHandling.h"
+#include "../fileIO/NodeFileHandling.h"
 #include "../customUI/customDialogs/OptionEditorDialog.h"
 #include "NodePort.h"
 
@@ -27,12 +27,6 @@ class NodePort;
  *
  */
 namespace node_components{
-    /** \brief Ways of interpretation of HTML elements sizes. Either as an absolute number of pixels or as a percentage of available space.
-     */
-    enum taskSizeType : int{
-        absolute = 0, // in pixels
-        relative = 1, // in percent (as is standard for css)
-    };
 
     /** \brief The importance of an option determines whether it is displayed directly on the node. This is the case for important options.
      */

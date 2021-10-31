@@ -1,6 +1,6 @@
 #include "SelectionCore.h"
 
-#include "../NodeFileHandling.h"
+#include "../../fileIO/CommonFileHandling.h"
 #include "../../customUI/optionCoreEditors/SelectionEditorPanel.h"
 #include "../../customUI/optionInputs/SelectionOptionInput.h"
 
@@ -46,7 +46,7 @@ void SelectionCore::setValue(std::string to){
 }
 
 void SelectionCore::write(std::ostream* where){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     writeInt(where, choices.size());
     for(std::string choice : choices){
         writeString(where, &choice);
@@ -55,7 +55,7 @@ void SelectionCore::write(std::ostream* where){
 }
 
 void SelectionCore::read(std::istream* from){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     int choiceNumber = readInt(from);
     for(int a = 0; a < choiceNumber; a++){
         std::string* temp = readString(from);

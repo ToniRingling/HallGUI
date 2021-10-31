@@ -1,6 +1,6 @@
 #include "CheckBoxCore.h"
 
-#include "../NodeFileHandling.h"
+#include "../../fileIO/CommonFileHandling.h"
 #include "../../customUI/optionCoreEditors/BlankEditorPanel.h"
 #include "../../customUI/optionInputs/CheckBoxOptionInput.h"
 
@@ -31,11 +31,11 @@ void CheckBoxCore::setValue(bool to){
 }
 
 void CheckBoxCore::write(std::ostream* where){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     writeInt(where, value ? 1 : 0);
 }
 
 void CheckBoxCore::read(std::istream* from){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     value = (readInt(from) == 1);
 }

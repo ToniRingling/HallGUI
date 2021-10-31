@@ -2,139 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="MSW-Debug" />
-	<File name="src\nodes\optionCores\TextFieldCore.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\fileIO\nodeFileVersionUpgraders\nodeFilePreVersionUpgrading.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2928" topLine="30" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NodeDescriptionDisplay.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="35" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionCoreEditors\SelectionEditorPanel.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1289" topLine="21" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeFileHandling.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2019" topLine="38" />
-		</Cursor>
-	</File>
-	<File name="src\FileTreeNode.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1666" topLine="14" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeOptionPage.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1704" topLine="19" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\TextAreaOptionInput.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="938" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\projectFileVersionUpgraders\projectFileVersionUpgrading.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1064" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NewNodeSearch.cpp" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="59" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionCoreEditors\BlankEditorPanel.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="74" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeDescriptor.cpp" open="0" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="122" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\TextAreaCore.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2281" topLine="28" />
-		</Cursor>
-	</File>
-	<File name="HallGUIApp.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="851" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionCoreEditors\BlankEditorPanel.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodePropertyPage.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1821" topLine="28" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\StringEditorField.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="526" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeOutputPage.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3581" topLine="61" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\CheckBoxOptionInput.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="227" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\RewrappableText.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="51" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\CheckBoxCore.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1173" topLine="2" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\OutputEditorDialog.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="762" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="resource.rc" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="28" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\SelectionOptionInput.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="330" topLine="17" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\RewrappableText.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="70" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\SelectionCore.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1580" topLine="29" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\TextFieldDialog.cpp" open="0" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="827" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NodeOptions.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2084" topLine="35" />
+			<Cursor1 position="3474" topLine="69" />
 		</Cursor>
 	</File>
 	<File name="src\customUI\optionInputs\TextAreaOptionInput.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -142,49 +12,9 @@
 			<Cursor1 position="1695" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\customUI\ProjectProperties.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\customUI\RewrappableText.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="762" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodePropertyPage.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2503" topLine="54" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NewNodeSelection.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1166" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeFileHandling.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="922" topLine="11" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\SmallPreview.h" open="0" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="524" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\projectFileVersionUpgraders\projectFileVersionUpgrading.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="420" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\ProjectFileHandling.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2280" topLine="46" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\Node.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="7724" topLine="242" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\OptionEditorDialog.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1525" topLine="8" />
+			<Cursor1 position="51" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\Globals.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -192,164 +22,9 @@
 			<Cursor1 position="1656" topLine="6" />
 		</Cursor>
 	</File>
-	<File name="src\nodes\NodePort.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\nodes\NodeConnection.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3799" topLine="30" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\OptionCore.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="245" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="HallGUIMain.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="10996" topLine="213" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeInputPage.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2603" topLine="39" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\nodeFileVersionUpgraders\nodeFileVersionUpgrading.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="790" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NewNodeSelection.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="256" topLine="46" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeInputPage.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3275" topLine="40" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodePort.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="541" topLine="21" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\GraphEditor.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1789" topLine="36" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeBaseDataPage.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1729" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeComponents.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1259" topLine="22" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\SelectionCore.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3147" topLine="51" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NewNodeSearch.h" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="168" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionCoreEditors\SelectionEditorPanel.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1369" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\Node.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="632" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\TextAreaCore.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1045" topLine="4" />
-		</Cursor>
-	</File>
-	<File name="src\ProjectFileHandling.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2634" topLine="51" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionCoreEditors\OptionEditorPanel.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="191" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\OptionInputElement.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="159" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\optionCores\OptionCore.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2736" topLine="33" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\LogField.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="152" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeOptionPage.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3506" topLine="71" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\TextFieldOptionInput.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\GraphEditor.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1039" topLine="113" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\OptionTypeChoiceDialog.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="944" topLine="11" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\nodeFileVersionUpgraders\nodeFileVersionUpgrading.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1008" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\StyledTextDialog.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="420" topLine="24" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeConnection.h" open="0" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1498" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\InputEditorDialog.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="746" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeBaseDataPage.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1481" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="HallGUIMain.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="955" topLine="42" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeComponents.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2747" topLine="0" />
+			<Cursor1 position="566" topLine="24" />
 		</Cursor>
 	</File>
 	<File name="src\customUI\StringEditorField.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -357,89 +32,19 @@
 			<Cursor1 position="346" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\nodes\optionCores\TextFieldCore.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\customUI\optionInputs\CheckBoxOptionInput.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1088" topLine="0" />
+			<Cursor1 position="227" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\customUI\customDialogs\OptionTypeChoiceDialog.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\nodes\optionCores\TextAreaCore.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="78" topLine="16" />
+			<Cursor1 position="2281" topLine="28" />
 		</Cursor>
 	</File>
-	<File name="src\FileTreeNode.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\nodes\NodeComponents.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1035" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\CheckBoxOptionInput.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="215" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\SmallPreview.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="811" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="src\projectFileVersionUpgraders\projectFilePreVersionUpgrading.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="144" topLine="176" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionCoreEditors\OptionEditorPanel.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="71" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\NodeDescriptionDisplay.h" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1047" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\SelectionOptionInput.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="328" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\customDialogs\OptionEditorDialog.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1593" topLine="13" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\nodePropertyPages\NodeOutputPage.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2944" topLine="36" />
-		</Cursor>
-	</File>
-	<File name="src\TaskAssembly.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4116" topLine="58" />
-		</Cursor>
-	</File>
-	<File name="src\nodes\NodeConnection.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="566" topLine="24" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\ProjectProperties.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2452" topLine="47" />
-		</Cursor>
-	</File>
-	<File name="HallGUIApp.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="427" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\TaskAssembly.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4837" topLine="113" />
-		</Cursor>
-	</File>
-	<File name="src\customUI\optionInputs\OptionInputElement.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="410" topLine="0" />
+			<Cursor1 position="644" topLine="24" />
 		</Cursor>
 	</File>
 	<File name="src\customUI\customDialogs\InputEditorDialog.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -447,14 +52,74 @@
 			<Cursor1 position="289" topLine="6" />
 		</Cursor>
 	</File>
-	<File name="src\Globals.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\customUI\optionCoreEditors\SelectionEditorPanel.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="643" topLine="0" />
+			<Cursor1 position="1369" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\customUI\customDialogs\TextFieldDialog.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\fileIO\nodeFileVersionUpgraders\nodeFileVersionUpgrading.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="992" topLine="1" />
+			<Cursor1 position="1201" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\OutputEditorDialog.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="762" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeOutputPage.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2944" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="HallGUIMain.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="959" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\projectFileVersionUpgraders\projectFileV-0Upgrading.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2761" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\OptionTypeChoiceDialog.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="78" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionCoreEditors\BlankEditorPanel.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\LogField.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="152" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\OptionEditorDialog.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1525" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\ProjectFileHandling.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3260" topLine="67" />
+		</Cursor>
+	</File>
+	<File name="HallGUIApp.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="851" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeOutputPage.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3581" topLine="61" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\NodeDescriptor.h" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="293" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\customUI\optionInputs\TextFieldOptionInput.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -462,9 +127,234 @@
 			<Cursor1 position="82" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\customUI\LogField.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\customUI\nodePropertyPages\NodeOptionPage.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1080" topLine="20" />
+			<Cursor1 position="1704" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\Node.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6245" topLine="141" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodePropertyPage.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1821" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeOptionPage.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3506" topLine="71" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\NodeConnection.h" open="0" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1498" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\OptionInputElement.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="410" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NodeDescriptionDisplay.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeInputPage.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3275" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\projectFileVersionUpgraders\projectFilePreVersionUpgrading.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5294" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\OptionInputElement.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="159" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\ProjectProperties.cpp" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1935" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\GraphEditor.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1789" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeBaseDataPage.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1481" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\OptionCore.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="245" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\TextFieldOptionInput.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NodeOptions.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2084" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\SelectionCore.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3147" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\TextFieldDialog.cpp" open="0" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="827" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\CheckBoxCore.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="153" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NewNodeSearch.cpp" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="59" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\TextFieldCore.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2928" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\OptionEditorDialog.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1593" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\nodeFileVersionUpgraders\nodeFileVersionUpgrading.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="608" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionCoreEditors\SelectionEditorPanel.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1289" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NewNodeSelection.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\SelectionCore.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1790" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\NodePort.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3799" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\CheckBoxOptionInput.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="215" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\ProjectProperties.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3167" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\NodePort.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="541" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\SelectionOptionInput.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="328" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\FileTreeNode.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1666" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\nodeFileVersionUpgraders\nodeFileV-0Upgrading.cpp" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1378" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\SmallPreview.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="811" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodePropertyPage.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2503" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="resource.rc" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="28" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\Node.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5208" topLine="184" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\StyledTextDialog.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="420" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionCoreEditors\BlankEditorPanel.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="74" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\projectFileVersionUpgraders\projectFileVersionUpgrading.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1111" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\SmallPreview.h" open="0" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="524" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionCoreEditors\OptionEditorPanel.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="71" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\RewrappableText.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="70" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\SelectionOptionInput.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="330" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\TextFieldCore.cpp" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="74" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="HallGUIMain.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9585" topLine="144" />
 		</Cursor>
 	</File>
 	<File name="src\customUI\customDialogs\StyledTextDialog.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -472,14 +362,109 @@
 			<Cursor1 position="96" topLine="15" />
 		</Cursor>
 	</File>
-	<File name="src\nodes\nodeFileVersionUpgraders\nodeFilePreVersionUpgrading.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\fileIO\NodeFileHandling.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6633" topLine="48" />
+			<Cursor1 position="125" topLine="17" />
 		</Cursor>
 	</File>
-	<File name="src\nodes\optionCores\CheckBoxCore.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="HallGUIApp.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="153" topLine="29" />
+			<Cursor1 position="427" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\StringEditorField.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="526" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\NodeDescriptor.cpp" open="0" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="122" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionInputs\TextAreaOptionInput.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="938" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\TextFieldDialog.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="992" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\NodeComponents.cpp" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="554" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\NodeFileHandling.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6299" topLine="116" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\OptionCore.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2736" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeInputPage.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2603" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\ProjectFileHandling.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="100" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\CommonFileHandling.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="99" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NewNodeSelection.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1166" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\GraphEditor.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1039" topLine="113" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\InputEditorDialog.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="746" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\projectFileVersionUpgraders\projectFileVersionUpgrading.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="501" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\CommonFileHandling.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="93" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\LogField.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1080" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="src\Globals.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="588" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\nodePropertyPages\NodeBaseDataPage.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1729" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\TaskAssembly.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\customUI\NodeOptions.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -492,9 +477,44 @@
 			<Cursor1 position="1392" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\nodes\NodeDescriptor.h" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\nodes\optionCores\CheckBoxCore.cpp" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="293" topLine="0" />
+			<Cursor1 position="1166" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NewNodeSearch.h" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="168" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\nodes\optionCores\TextAreaCore.cpp" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="73" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\customDialogs\OptionTypeChoiceDialog.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="944" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="src\FileTreeNode.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1035" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\fileIO\TaskAssembly.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9851" topLine="195" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\optionCoreEditors\OptionEditorPanel.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="191" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\customUI\NodeDescriptionDisplay.h" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1047" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

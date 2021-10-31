@@ -138,10 +138,6 @@
 		<Unit filename="src/FileTreeNode.h" />
 		<Unit filename="src/Globals.cpp" />
 		<Unit filename="src/Globals.h" />
-		<Unit filename="src/ProjectFileHandling.cpp" />
-		<Unit filename="src/ProjectFileHandling.h" />
-		<Unit filename="src/TaskAssembly.cpp" />
-		<Unit filename="src/TaskAssembly.h" />
 		<Unit filename="src/customUI/GraphEditor.cpp" />
 		<Unit filename="src/customUI/GraphEditor.h" />
 		<Unit filename="src/customUI/LogField.cpp" />
@@ -200,6 +196,22 @@
 		<Unit filename="src/customUI/optionInputs/TextAreaOptionInput.h" />
 		<Unit filename="src/customUI/optionInputs/TextFieldOptionInput.cpp" />
 		<Unit filename="src/customUI/optionInputs/TextFieldOptionInput.h" />
+		<Unit filename="src/fileIO/CommonFileHandling.cpp" />
+		<Unit filename="src/fileIO/CommonFileHandling.h" />
+		<Unit filename="src/fileIO/NodeFileHandling.cpp" />
+		<Unit filename="src/fileIO/NodeFileHandling.h" />
+		<Unit filename="src/fileIO/ProjectFileHandling.cpp" />
+		<Unit filename="src/fileIO/ProjectFileHandling.h" />
+		<Unit filename="src/fileIO/TaskAssembly.cpp" />
+		<Unit filename="src/fileIO/TaskAssembly.h" />
+		<Unit filename="src/fileIO/nodeFileVersionUpgraders/nodeFilePreVersionUpgrading.cpp" />
+		<Unit filename="src/fileIO/nodeFileVersionUpgraders/nodeFileV-0Upgrading.cpp" />
+		<Unit filename="src/fileIO/nodeFileVersionUpgraders/nodeFileVersionUpgrading.cpp" />
+		<Unit filename="src/fileIO/nodeFileVersionUpgraders/nodeFileVersionUpgrading.h" />
+		<Unit filename="src/fileIO/projectFileVersionUpgraders/projectFilePreVersionUpgrading.cpp" />
+		<Unit filename="src/fileIO/projectFileVersionUpgraders/projectFileV-0Upgrading.cpp" />
+		<Unit filename="src/fileIO/projectFileVersionUpgraders/projectFileVersionUpgrading.cpp" />
+		<Unit filename="src/fileIO/projectFileVersionUpgraders/projectFileVersionUpgrading.h" />
 		<Unit filename="src/nodes/Node.cpp" />
 		<Unit filename="src/nodes/Node.h" />
 		<Unit filename="src/nodes/NodeComponents.cpp" />
@@ -208,13 +220,8 @@
 		<Unit filename="src/nodes/NodeConnection.h" />
 		<Unit filename="src/nodes/NodeDescriptor.cpp" />
 		<Unit filename="src/nodes/NodeDescriptor.h" />
-		<Unit filename="src/nodes/NodeFileHandling.cpp" />
-		<Unit filename="src/nodes/NodeFileHandling.h" />
 		<Unit filename="src/nodes/NodePort.cpp" />
 		<Unit filename="src/nodes/NodePort.h" />
-		<Unit filename="src/nodes/nodeFileVersionUpgraders/nodeFilePreVersionUpgrading.cpp" />
-		<Unit filename="src/nodes/nodeFileVersionUpgraders/nodeFileVersionUpgrading.cpp" />
-		<Unit filename="src/nodes/nodeFileVersionUpgraders/nodeFileVersionUpgrading.h" />
 		<Unit filename="src/nodes/optionCores/CheckBoxCore.cpp" />
 		<Unit filename="src/nodes/optionCores/CheckBoxCore.h" />
 		<Unit filename="src/nodes/optionCores/OptionCore.cpp" />
@@ -225,9 +232,6 @@
 		<Unit filename="src/nodes/optionCores/TextAreaCore.h" />
 		<Unit filename="src/nodes/optionCores/TextFieldCore.cpp" />
 		<Unit filename="src/nodes/optionCores/TextFieldCore.h" />
-		<Unit filename="src/projectFileVersionUpgraders/projectFilePreVersionUpgrading.cpp" />
-		<Unit filename="src/projectFileVersionUpgraders/projectFileVersionUpgrading.cpp" />
-		<Unit filename="src/projectFileVersionUpgraders/projectFileVersionUpgrading.h" />
 		<Unit filename="wxsmith/HallGUIframe.wxs" />
 		<Extensions>
 			<DoxyBlocks>

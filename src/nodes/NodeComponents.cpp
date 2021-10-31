@@ -5,8 +5,9 @@
 #include "optionCores/SelectionCore.h"
 #include "optionCores/TextAreaCore.h"
 #include "../customUI/optionInputs/OptionInputElement.h"
+#include "../fileIO/CommonFileHandling.h"
 
-using namespace node_file_handling;
+using namespace common_file_handling;
 using namespace node_components;
 
 Input::Input(std::string name, std::string description, std::string type){

@@ -95,13 +95,9 @@ private:
     std::vector<node_components::Option*> options;/**<The options to this node.*/
 
     std::string* task;/**<The HTML-task content of this node.*/
-    node_components::sizeType sizeMode;/**<How the following sizes are to be interpreted.*/
-    int xSize;/**<The size of the HTML-part of this node in x-direction.*/
-    int ySize;/**<The size of the HTML-part of this node in y-direction.*/
 
     std::string* runScript;/**<The javaScript content of this node, which is executed when the node is triggered.*/
     std::string* initScript;/**<The javaScript content of this node, which is executed when the task is started.*/
-    std::vector<std::string> imports;/**<The javaScript imports needed for the content of this node.*/
 
     wxBitmap* innerBitmap;/**<Bitmap for rendering the inner parts of this node, i.e. without ports.*/
     bool mustRefresh;/**<If true graphics will be refreshed when requested the next time.*/
@@ -165,16 +161,13 @@ public:
      *
      */
     void addOption(node_components::Option* option);
-    /** \brief Sets the HTML task contents along with their size. Will delete the old task.
+    /** \brief Sets the HTML task contents. Will delete the old task.
      *
      * \param task std::string* The new HTML contents to this node.
-     * \param sizeMode node_components::sizeType How the following size parameters are to be interpreted.
-     * \param xSize int The size of the new HTML contents in the x-direction.
-     * \param ySize int The size of the new HTML contents in the y-direction.
      * \return void
      *
      */
-    void setTask(std::string* task, node_components::sizeType sizeMode, int xSize, int ySize);
+    void setTask(std::string* task);
     /** \brief Sets the javaScript contents. Will delete the old script.
      *
      * \param run std::string* The new javaScript contents to this node, which should run when it is triggered.

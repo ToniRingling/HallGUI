@@ -26,8 +26,8 @@ namespace globals{
 
     int gridSize = 50;
 
-    std::string currentNodeFileVersion = "HGNV-0";
-    std::string currentProjectFileVersion = "HGPV-0";
+    std::string currentNodeFileVersion = "HGNV-1";
+    std::string currentProjectFileVersion = "HGPV-1";
 
     void initialize(){
         wxFont* font = (wxFont*)wxSWISS_FONT;

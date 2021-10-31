@@ -188,14 +188,11 @@ void Node::addOption(node_components::Option* option){
     options.push_back(option);
 }
 
-void Node::setTask(std::string* task, node_components::sizeType sizeMode, int xSize, int ySize){
+void Node::setTask(std::string* task){
     if(this->task != NULL){
         delete this->task;
     }
     this->task = task;
-    this->sizeMode = sizeMode;
-    this->xSize = xSize;
-    this->ySize = ySize;
 }
 
 void Node::setScript(std::string* run, std::string* init){
@@ -207,10 +204,6 @@ void Node::setScript(std::string* run, std::string* init){
         delete this->initScript;
     }
     this->initScript = init;
-}
-
-void Node::addImport(std::string import){
-    imports.push_back(import);
 }
 
 void Node::refreshPorts(){

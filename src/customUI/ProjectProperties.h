@@ -32,8 +32,6 @@ private:
 
     wxFlexGridSizer* sizer;/**<The sizer to contain all the editable properties.*/
 
-    std::vector<node_components::Option*> extraOptions;/**<All non-mandatory options for the whole project.*/
-
 public :
     /** \brief Creates this element and all GUI elements needed for editing the project properties.
      *
@@ -77,27 +75,6 @@ public :
      *
      */
     void changeAnswers(wxCommandEvent& event);
-    /** \brief Adds a new Option to the project. Caused by button press.
-    *
-    * \param event wxCommandEvent& The button press which should cause a new Option to be created.
-    * \return void
-    *
-    */
-    void newOption(wxCommandEvent& event);
-    /** \brief Deletes an Option from the project. Caused by button press.
-     *
-     * \param event wxCommandEvent& The button press which should cause the deletion of an Option. Carries the number of the option (w.r. to the vector of all non-mandatory options).
-     * \return void
-     *
-     */
-    void deleteOption(wxCommandEvent& event);
-    /** \brief Opens a dialog to edit the given option. Caused by button press.
-     *
-     * \param event wxCommandEvent& The button press which should cause a dialog for editing the option.
-     * \return void
-     *
-     */
-    void editOption(wxCommandEvent& event);
     /** \brief Sets the user mode for this UI element.
     *
     * \param mode globals::userMode The user mode to set this element to.

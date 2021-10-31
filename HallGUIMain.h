@@ -26,8 +26,8 @@
 #include <wx/statusbr.h>
 //*)
 
-#include "src/TaskAssembly.h"
-#include "src/ProjectFileHandling.h"
+#include "src/fileIO/TaskAssembly.h"
+#include "src/fileIO/ProjectFileHandling.h"
 #include "src/Globals.h"
 
 

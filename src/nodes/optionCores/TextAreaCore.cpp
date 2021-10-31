@@ -1,6 +1,6 @@
 #include "TextAreaCore.h"
 
-#include "../NodeFileHandling.h"
+#include "../../fileIO/CommonFileHandling.h"
 #include "../../customUI/optionCoreEditors/BlankEditorPanel.h"
 #include "../../customUI/optionInputs/TextAreaOptionInput.h"
 
@@ -31,12 +31,12 @@ void TextAreaCore::setValue(std::string to){
 }
 
 void TextAreaCore::write(std::ostream* where){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     writeString(where, &value);
 }
 
 void TextAreaCore::read(std::istream* from){
-    using namespace node_file_handling;
+    using namespace common_file_handling;
     std::string* temp = readString(from);
     value = *temp;
     delete temp;
